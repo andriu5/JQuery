@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+h1 {
+    font-size: 48px;
+    font-family: sans-serif, Arial, Helvetica;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+body {
+    margin: 15px;
+}
+hr {
+border: 0;
+clear:both;
+display:block;
+width: 96%;               
+background-color:black;
+height: 1px;
+}
+div#container div {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+div.AddClass p, div.Slidetoggle p, div.toggle p {
+    display: inline-block;
+}
+div.Append p {
+    display: block;
+}
+div.After p {
+    display: block;
+}
+button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 4px grey;
+}
+.red{
+    color:red;
+}
+img.toggleImages {
+    width:200px;
+}
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e7f5c2;
+    border: solid 1px #c3c3c3;
+}
+#panel {
+    padding: 50px;
+}
+.Sliding div#panel {
+    display: block;
+    margin: 0px;
+}
+.Sliding div#flip {
+    display: block;
+    margin: 0px;
+}
+
+.Before img.gato  {
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    margin: 0px;
+    display: block;
+}
+.Before p {
+    display: block;
+}
+div.Attr {
+    width: 700px;
+    min-height: 300px;
+}
+img#gato-daftpunk{
+    border: 1px solid black;
+    display: block;
+}
+
+.Val input {
+    border: 1px solid black;
+    text-align: center;
+    width:fit-content;
+}
+
+.HTML img.gato-IronCat {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.HTML img.nuevo-gato {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
